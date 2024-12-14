@@ -35,7 +35,6 @@ builder.Services.AddCors(options =>
                 .AllowAnyHeader();
         });
 });
-builder.WebHost.UseUrls("http://*:80");
 // Add services to the container.
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
