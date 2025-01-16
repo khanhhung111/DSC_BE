@@ -44,7 +44,7 @@ namespace dsc_backend.Controllers
                 string tmnCode = "0JQSW1QI";
                 string secretKey = "SEQOYCYJCOM9HQ6FEQC0O9KSA9TEKB1A";
                 string vnpUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-                string returnUrl = "https://dsc-fpt.azurewebsites.net/createTournament";
+                string returnUrl = "http://localhost:3000/createTournament";
                 //string bankCode = "VNBANK";
                 string locale = "vn";
 
@@ -173,7 +173,7 @@ namespace dsc_backend.Controllers
             string tmnCode = "0JQSW1QI";
             string secretKey = "SEQOYCYJCOM9HQ6FEQC0O9KSA9TEKB1A";
             string vnpUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-            string returnUrl = "https://dsc-fpt.azurewebsites.net/myclub";
+            string returnUrl = "http://localhost:3000/myclub";
             //string bankCode = "VNBANK";
             string locale = "vn";
 
@@ -302,7 +302,7 @@ namespace dsc_backend.Controllers
             string tmnCode = "0JQSW1QI";
             string secretKey = "SEQOYCYJCOM9HQ6FEQC0O9KSA9TEKB1A";
             string vnpUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-            string returnUrl = "https://dsc-fpt.azurewebsites.net/createclub";
+            string returnUrl = "http://localhost:3000/createclub";
             //string bankCode = "VNBANK";
             string locale = "vn";
 
